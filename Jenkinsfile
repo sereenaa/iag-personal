@@ -1,16 +1,17 @@
 
 pipeline { 
-   agent any
+	
+	agent any
 
-  stages {
+	stages {
 
-    stage('Simple Print Job') {
-       steps() {
-          script {
-            println "Hello World"
-       }
-    }
-  }
+    	stage('Simple Print Job') {
+       		steps() {
+          		script {
+            		println "Hello World"
+        		}
+    		}
+  		}
+	}
 }
-
 
