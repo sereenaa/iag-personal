@@ -4,7 +4,7 @@ FROM node:10
 
 # Create app directory to hold the application code inside the image
 # This will be the working directory for your application 
-WORKDIR /C:/Users/s120748/OneDrive/transformation/iag-personal/jenkins_docker/ 
+WORKDIR /C:/Users/s120748/OneDrive/transformation/github_jenkins_docker/ 
 
 # Install app dependencies
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
